@@ -9,7 +9,12 @@ The base code of this repository is from: https://github.com/berkeleydeeprlcours
 
 # Results
 
-Result from the HW1 on *Behavioral Cloning*
+Result from the HW1 on **Behavioral Cloning**
+
+Iteration 5(Left) - 40(Right)
+
+![](https://github.com/FelipeMarcelino/CS285-Berkeley-Reinforcement-Learning/blob/master/hw1/results/gifs/dagger_40_iter.gif)
+
 
 # Contact
 
