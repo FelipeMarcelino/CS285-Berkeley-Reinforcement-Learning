@@ -9,7 +9,7 @@ The base code of this repository is from: https://github.com/berkeleydeeprlcours
 
 # Results
 
-Result from the HW1 on **Behavioral Cloning**
+Result from the HW1 on **Dagger**. Explanation about **Dagger** with mahematical notations can be found here - http://rail.eecs.berkeley.edu/deeprlcourse/ 
 
 Iteration 5(Left) - 40(Right)
 
