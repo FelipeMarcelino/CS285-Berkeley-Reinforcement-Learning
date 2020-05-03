@@ -1,0 +1,1298 @@
+########################
+logging outputs to  /home/felipemarcelino/google_drive/Machine_Learning/CS285/hw1/cs285/scripts/../data/dagger_best_humanoid_2_Humanoid-v2_01-05-2020_13-53-00
+########################
+Loading expert policy from... cs285/policies/experts/Humanoid.pkl
+obs (1, 376) (1, 376)
+Done restoring expert policy...
+
+
+********** Iteration 0 ************
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 243.27940368652344
+Eval_StdReturn : 80.5333023071289
+Eval_MaxReturn : 500.56451416015625
+Eval_MinReturn : 133.21043395996094
+Eval_AverageEpLen : 48.19047619047619
+Train_AverageReturn : 10344.517578125
+Train_StdReturn : 20.9814453125
+Train_MaxReturn : 10365.4990234375
+Train_MinReturn : 10323.5361328125
+Train_AverageEpLen : 1000.0
+Train_EnvstepsSoFar : 0
+TimeSinceStart : 50.796008348464966
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 1 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 328.9924011230469
+Eval_StdReturn : 45.29578399658203
+Eval_MaxReturn : 439.6351013183594
+Eval_MinReturn : 241.40431213378906
+Eval_AverageEpLen : 61.3469387755102
+Train_AverageReturn : 237.80506896972656
+Train_StdReturn : 71.53079223632812
+Train_MaxReturn : 545.3412475585938
+Train_MinReturn : 142.3572235107422
+Train_AverageEpLen : 47.60663507109005
+Train_EnvstepsSoFar : 10045
+TimeSinceStart : 131.42232394218445
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 2 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 511.1062927246094
+Eval_StdReturn : 242.58111572265625
+Eval_MaxReturn : 1356.18310546875
+Eval_MinReturn : 261.2843933105469
+Eval_AverageEpLen : 85.33333333333333
+Train_AverageReturn : 320.17926025390625
+Train_StdReturn : 43.0575065612793
+Train_MaxReturn : 489.226806640625
+Train_MinReturn : 223.8193817138672
+Train_AverageEpLen : 60.01197604790419
+Train_EnvstepsSoFar : 20067
+TimeSinceStart : 215.06448483467102
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 3 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 1162.582763671875
+Eval_StdReturn : 525.646728515625
+Eval_MaxReturn : 2385.08935546875
+Eval_MinReturn : 410.89990234375
+Eval_AverageEpLen : 159.75
+Train_AverageReturn : 514.4231567382812
+Train_StdReturn : 241.75332641601562
+Train_MaxReturn : 1378.48876953125
+Train_MinReturn : 242.881103515625
+Train_AverageEpLen : 85.16949152542372
+Train_EnvstepsSoFar : 30117
+TimeSinceStart : 301.9944064617157
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 4 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 2125.78369140625
+Eval_StdReturn : 1318.0958251953125
+Eval_MaxReturn : 5805.09033203125
+Eval_MinReturn : 493.9992370605469
+Eval_AverageEpLen : 258.8333333333333
+Train_AverageReturn : 1071.5120849609375
+Train_StdReturn : 519.2340698242188
+Train_MaxReturn : 3184.80615234375
+Train_MinReturn : 315.6313781738281
+Train_AverageEpLen : 149.75
+Train_EnvstepsSoFar : 40300
+TimeSinceStart : 391.1009624004364
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 5 ************
+
+Collecting data to be used for training...
+
+Collecting train rollouts to be used for saving videos...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+
+Collecting video rollouts eval
+
+Saving train rollouts as videos...
+MoviePy - Building file /tmp/tmp2e1o7sq8.gif with imageio.
+MoviePy - Building file /tmp/tmp2p9orp7a.gif with imageio.
+Eval_AverageReturn : 2518.12353515625
+Eval_StdReturn : 1608.181640625
+Eval_MaxReturn : 6645.91357421875
+Eval_MinReturn : 767.3026733398438
+Eval_AverageEpLen : 287.4166666666667
+Train_AverageReturn : 2141.092041015625
+Train_StdReturn : 1025.3385009765625
+Train_MaxReturn : 4346.4052734375
+Train_MinReturn : 553.18359375
+Train_AverageEpLen : 263.7368421052632
+Train_EnvstepsSoFar : 50322
+TimeSinceStart : 547.8991241455078
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 6 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 7196.078125
+Eval_StdReturn : 1969.54150390625
+Eval_MaxReturn : 9895.236328125
+Eval_MinReturn : 4999.7373046875
+Eval_AverageEpLen : 736.6
+Train_AverageReturn : 2812.49267578125
+Train_StdReturn : 1630.257080078125
+Train_MaxReturn : 8183.5068359375
+Train_MinReturn : 463.6059265136719
+Train_AverageEpLen : 320.71875
+Train_EnvstepsSoFar : 60585
+TimeSinceStart : 661.8950741291046
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 7 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 9980.61328125
+Eval_StdReturn : 239.320068359375
+Eval_MaxReturn : 10213.0849609375
+Eval_MinReturn : 9582.3310546875
+Eval_AverageEpLen : 995.25
+Train_AverageReturn : 4329.759765625
+Train_StdReturn : 2884.0888671875
+Train_MaxReturn : 10083.982421875
+Train_MinReturn : 522.7250366210938
+Train_AverageEpLen : 463.45454545454544
+Train_EnvstepsSoFar : 70781
+TimeSinceStart : 765.4785318374634
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 8 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 9702.2890625
+Eval_StdReturn : 736.0582275390625
+Eval_MaxReturn : 10222.6796875
+Eval_MinReturn : 8433.361328125
+Eval_AverageEpLen : 964.25
+Train_AverageReturn : 5659.62890625
+Train_StdReturn : 3557.26171875
+Train_MaxReturn : 10140.759765625
+Train_MinReturn : 494.40802001953125
+Train_AverageEpLen : 593.5294117647059
+Train_EnvstepsSoFar : 80871
+TimeSinceStart : 869.8097569942474
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 9 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 6732.75634765625
+Eval_StdReturn : 4244.333984375
+Eval_MaxReturn : 10220.640625
+Eval_MinReturn : 1175.2607421875
+Eval_AverageEpLen : 679.8
+Train_AverageReturn : 9079.28125
+Train_StdReturn : 1967.365234375
+Train_MaxReturn : 10314.431640625
+Train_MinReturn : 4324.900390625
+Train_AverageEpLen : 907.25
+Train_EnvstepsSoFar : 91758
+TimeSinceStart : 973.2543125152588
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 10 ************
+
+Collecting data to be used for training...
+
+Collecting train rollouts to be used for saving videos...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+
+Collecting video rollouts eval
+
+Saving train rollouts as videos...
+MoviePy - Building file /tmp/tmpq79y4e51.gif with imageio.
+MoviePy - Building file /tmp/tmpyro0odux.gif with imageio.
+Eval_AverageReturn : 10158.9697265625
+Eval_StdReturn : 52.1035270690918
+Eval_MaxReturn : 10224.658203125
+Eval_MinReturn : 10097.212890625
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 7370.6318359375
+Train_StdReturn : 3619.31494140625
+Train_MaxReturn : 10263.306640625
+Train_MinReturn : 1117.55078125
+Train_AverageEpLen : 739.2142857142857
+Train_EnvstepsSoFar : 102107
+TimeSinceStart : 1278.6141681671143
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 11 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 7519.3935546875
+Eval_StdReturn : 2530.189453125
+Eval_MaxReturn : 10112.732421875
+Eval_MinReturn : 2888.82177734375
+Eval_AverageEpLen : 764.0
+Train_AverageReturn : 8023.896484375
+Train_StdReturn : 3224.121826171875
+Train_MaxReturn : 10279.0654296875
+Train_MinReturn : 1009.8361206054688
+Train_AverageEpLen : 802.1538461538462
+Train_EnvstepsSoFar : 112535
+TimeSinceStart : 1424.9763803482056
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 12 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 9162.78515625
+Eval_StdReturn : 1686.4678955078125
+Eval_MaxReturn : 10158.01953125
+Eval_MinReturn : 6242.0234375
+Eval_AverageEpLen : 914.0
+Train_AverageReturn : 8532.1181640625
+Train_StdReturn : 2136.180419921875
+Train_MaxReturn : 10273.90625
+Train_MinReturn : 4475.54150390625
+Train_AverageEpLen : 848.8333333333334
+Train_EnvstepsSoFar : 122721
+TimeSinceStart : 1531.1534719467163
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 13 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10300.6357421875
+Eval_StdReturn : 93.77372741699219
+Eval_MaxReturn : 10418.0791015625
+Eval_MinReturn : 10188.5703125
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 8223.5380859375
+Train_StdReturn : 3121.8125
+Train_MaxReturn : 10365.142578125
+Train_MinReturn : 1652.7587890625
+Train_AverageEpLen : 816.5384615384615
+Train_EnvstepsSoFar : 133336
+TimeSinceStart : 1643.6212108135223
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 14 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 7844.60009765625
+Eval_StdReturn : 4065.31005859375
+Eval_MaxReturn : 10299.75390625
+Eval_MinReturn : 804.4296875
+Eval_AverageEpLen : 779.0
+Train_AverageReturn : 8461.7119140625
+Train_StdReturn : 2558.406494140625
+Train_MaxReturn : 10402.0234375
+Train_MinReturn : 3413.6796875
+Train_AverageEpLen : 837.0769230769231
+Train_EnvstepsSoFar : 144218
+TimeSinceStart : 1763.6330280303955
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 15 ************
+
+Collecting data to be used for training...
+
+Collecting train rollouts to be used for saving videos...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+
+Collecting video rollouts eval
+
+Saving train rollouts as videos...
+MoviePy - Building file /tmp/tmp_ypso9sa.gif with imageio.
+MoviePy - Building file /tmp/tmppseiujjr.gif with imageio.
+Eval_AverageReturn : 9225.5986328125
+Eval_StdReturn : 1728.698486328125
+Eval_MaxReturn : 10314.5
+Eval_MinReturn : 6237.078125
+Eval_AverageEpLen : 906.25
+Train_AverageReturn : 10222.3818359375
+Train_StdReturn : 86.38621520996094
+Train_MaxReturn : 10341.8388671875
+Train_MinReturn : 10082.0517578125
+Train_AverageEpLen : 1000.0
+Train_EnvstepsSoFar : 154218
+TimeSinceStart : 2135.06192111969
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 16 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10170.8583984375
+Eval_StdReturn : 55.0372200012207
+Eval_MaxReturn : 10222.1298828125
+Eval_MinReturn : 10094.5068359375
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 9060.1474609375
+Train_StdReturn : 2733.830078125
+Train_MaxReturn : 10404.91796875
+Train_MinReturn : 1707.41650390625
+Train_AverageEpLen : 891.0833333333334
+Train_EnvstepsSoFar : 164911
+TimeSinceStart : 2293.5254571437836
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 17 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10241.5400390625
+Eval_StdReturn : 64.4240951538086
+Eval_MaxReturn : 10332.537109375
+Eval_MinReturn : 10192.1240234375
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 9256.9931640625
+Train_StdReturn : 2523.9208984375
+Train_MaxReturn : 10287.24609375
+Train_MinReturn : 1174.367919921875
+Train_AverageEpLen : 912.5833333333334
+Train_EnvstepsSoFar : 175862
+TimeSinceStart : 2406.8033287525177
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 18 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10204.74609375
+Eval_StdReturn : 14.217519760131836
+Eval_MaxReturn : 10224.369140625
+Eval_MinReturn : 10191.138671875
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 9386.3291015625
+Train_StdReturn : 2758.07958984375
+Train_MaxReturn : 10380.421875
+Train_MinReturn : 668.4878540039062
+Train_AverageEpLen : 918.3636363636364
+Train_EnvstepsSoFar : 185964
+TimeSinceStart : 2526.335796356201
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 19 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10222.4248046875
+Eval_StdReturn : 44.897186279296875
+Eval_MaxReturn : 10281.146484375
+Eval_MinReturn : 10172.1484375
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 9437.60546875
+Train_StdReturn : 2305.21484375
+Train_MaxReturn : 10311.3740234375
+Train_MinReturn : 2159.759521484375
+Train_AverageEpLen : 932.0
+Train_EnvstepsSoFar : 196216
+TimeSinceStart : 2651.164355993271
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 20 ************
+
+Collecting data to be used for training...
+
+Collecting train rollouts to be used for saving videos...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+
+Collecting video rollouts eval
+
+Saving train rollouts as videos...
+MoviePy - Building file /tmp/tmpyh3yu59x.gif with imageio.
+MoviePy - Building file /tmp/tmp1ulrzqi9.gif with imageio.
+Eval_AverageReturn : 10276.24609375
+Eval_StdReturn : 44.71155548095703
+Eval_MaxReturn : 10317.328125
+Eval_MinReturn : 10214.0771484375
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 10210.087890625
+Train_StdReturn : 91.46397399902344
+Train_MaxReturn : 10315.404296875
+Train_MinReturn : 10029.873046875
+Train_AverageEpLen : 1000.0
+Train_EnvstepsSoFar : 206216
+TimeSinceStart : 3029.0840644836426
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 21 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 9974.02734375
+Eval_StdReturn : 165.37966918945312
+Eval_MaxReturn : 10125.7939453125
+Eval_MinReturn : 9744.03125
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 8928.9560546875
+Train_StdReturn : 2446.36767578125
+Train_MaxReturn : 10310.8671875
+Train_MinReturn : 3195.454345703125
+Train_AverageEpLen : 880.6666666666666
+Train_EnvstepsSoFar : 216784
+TimeSinceStart : 3196.7588300704956
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 22 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 8356.5068359375
+Eval_StdReturn : 3100.418212890625
+Eval_MaxReturn : 10208.134765625
+Eval_MinReturn : 2986.956298828125
+Eval_AverageEpLen : 833.25
+Train_AverageReturn : 9651.56640625
+Train_StdReturn : 1339.62548828125
+Train_MaxReturn : 10265.8193359375
+Train_MinReturn : 5433.80078125
+Train_AverageEpLen : 961.3636363636364
+Train_EnvstepsSoFar : 227359
+TimeSinceStart : 3319.143956184387
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 23 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 8402.322265625
+Eval_StdReturn : 2399.574951171875
+Eval_MaxReturn : 10241.2265625
+Eval_MinReturn : 4357.02197265625
+Eval_AverageEpLen : 831.25
+Train_AverageReturn : 9608.9462890625
+Train_StdReturn : 1444.7222900390625
+Train_MaxReturn : 10338.16796875
+Train_MinReturn : 5716.13623046875
+Train_AverageEpLen : 941.5454545454545
+Train_EnvstepsSoFar : 237716
+TimeSinceStart : 3445.8772320747375
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 24 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10207.8251953125
+Eval_StdReturn : 8.592219352722168
+Eval_MaxReturn : 10216.43359375
+Eval_MinReturn : 10196.09375
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 9659.39453125
+Train_StdReturn : 1246.0484619140625
+Train_MaxReturn : 10353.931640625
+Train_MinReturn : 6902.896484375
+Train_AverageEpLen : 948.0909090909091
+Train_EnvstepsSoFar : 248145
+TimeSinceStart : 3575.3203361034393
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 25 ************
+
+Collecting data to be used for training...
+
+Collecting train rollouts to be used for saving videos...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+
+Collecting video rollouts eval
+
+Saving train rollouts as videos...
+MoviePy - Building file /tmp/tmp4px67bk9.gif with imageio.
+MoviePy - Building file /tmp/tmprwh87xfy.gif with imageio.
+Eval_AverageReturn : 10286.4208984375
+Eval_StdReturn : 32.111602783203125
+Eval_MaxReturn : 10331.5712890625
+Eval_MinReturn : 10259.625
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 9901.0556640625
+Train_StdReturn : 1026.466552734375
+Train_MaxReturn : 10317.94921875
+Train_MinReturn : 6661.82373046875
+Train_AverageEpLen : 969.0
+Train_EnvstepsSoFar : 258804
+TimeSinceStart : 3966.0917613506317
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 26 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10352.0322265625
+Eval_StdReturn : 23.15643882751465
+Eval_MaxReturn : 10382.451171875
+Eval_MinReturn : 10326.318359375
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 9934.44140625
+Train_StdReturn : 915.2681884765625
+Train_MaxReturn : 10293.9267578125
+Train_MinReturn : 7045.494140625
+Train_AverageEpLen : 973.6363636363636
+Train_EnvstepsSoFar : 269514
+TimeSinceStart : 4145.173949480057
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 27 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10353.4541015625
+Eval_StdReturn : 32.690826416015625
+Eval_MaxReturn : 10397.37890625
+Eval_MinReturn : 10319.001953125
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 10234.501953125
+Train_StdReturn : 100.84283447265625
+Train_MaxReturn : 10379.5078125
+Train_MinReturn : 9995.955078125
+Train_AverageEpLen : 1000.0
+Train_EnvstepsSoFar : 279514
+TimeSinceStart : 4273.982186555862
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 28 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10195.1181640625
+Eval_StdReturn : 80.79364013671875
+Eval_MaxReturn : 10277.3740234375
+Eval_MinReturn : 10085.310546875
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 9890.0419921875
+Train_StdReturn : 1248.142333984375
+Train_MaxReturn : 10412.486328125
+Train_MinReturn : 5965.88623046875
+Train_AverageEpLen : 965.2727272727273
+Train_EnvstepsSoFar : 290132
+TimeSinceStart : 4408.034631967545
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 29 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10320.369140625
+Eval_StdReturn : 11.656826972961426
+Eval_MaxReturn : 10330.359375
+Eval_MinReturn : 10304.017578125
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 9572.462890625
+Train_StdReturn : 2149.9326171875
+Train_MaxReturn : 10363.83203125
+Train_MinReturn : 2777.21630859375
+Train_AverageEpLen : 940.4545454545455
+Train_EnvstepsSoFar : 300477
+TimeSinceStart : 4542.036816120148
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 30 ************
+
+Collecting data to be used for training...
+
+Collecting train rollouts to be used for saving videos...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+
+Collecting video rollouts eval
+
+Saving train rollouts as videos...
+MoviePy - Building file /tmp/tmpn5_76vbu.gif with imageio.
+MoviePy - Building file /tmp/tmp2la9l6qj.gif with imageio.
+Eval_AverageReturn : 10274.955078125
+Eval_StdReturn : 55.55730056762695
+Eval_MaxReturn : 10321.021484375
+Eval_MinReturn : 10196.80078125
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 10088.6845703125
+Train_StdReturn : 425.4901428222656
+Train_MaxReturn : 10339.396484375
+Train_MinReturn : 8771.75390625
+Train_AverageEpLen : 988.0
+Train_EnvstepsSoFar : 311345
+TimeSinceStart : 4953.325310468674
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 31 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10186.48046875
+Eval_StdReturn : 118.51220703125
+Eval_MaxReturn : 10323.3037109375
+Eval_MinReturn : 10034.240234375
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 9583.49609375
+Train_StdReturn : 2308.54248046875
+Train_MaxReturn : 10422.4287109375
+Train_MinReturn : 2288.12451171875
+Train_AverageEpLen : 933.0
+Train_EnvstepsSoFar : 321608
+TimeSinceStart : 5140.459771871567
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 32 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10141.1640625
+Eval_StdReturn : 86.80587005615234
+Eval_MaxReturn : 10203.7646484375
+Eval_MinReturn : 10018.41015625
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 10266.962890625
+Train_StdReturn : 59.90596008300781
+Train_MaxReturn : 10382.73046875
+Train_MinReturn : 10186.904296875
+Train_AverageEpLen : 1000.0
+Train_EnvstepsSoFar : 331608
+TimeSinceStart : 5278.03773355484
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 33 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10299.3515625
+Eval_StdReturn : 56.51142501831055
+Eval_MaxReturn : 10376.021484375
+Eval_MinReturn : 10241.4814453125
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 9369.2880859375
+Train_StdReturn : 1944.562744140625
+Train_MaxReturn : 10420.45703125
+Train_MinReturn : 5008.12890625
+Train_AverageEpLen : 916.3636363636364
+Train_EnvstepsSoFar : 341688
+TimeSinceStart : 5418.882912874222
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 34 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10175.134765625
+Eval_StdReturn : 111.32408142089844
+Eval_MaxReturn : 10316.896484375
+Eval_MinReturn : 10044.947265625
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 9013.3671875
+Train_StdReturn : 2724.604736328125
+Train_MaxReturn : 10372.849609375
+Train_MinReturn : 350.52410888671875
+Train_AverageEpLen : 882.25
+Train_EnvstepsSoFar : 352275
+TimeSinceStart : 5562.727578401566
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 35 ************
+
+Collecting data to be used for training...
+
+Collecting train rollouts to be used for saving videos...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+
+Collecting video rollouts eval
+
+Saving train rollouts as videos...
+MoviePy - Building file /tmp/tmpdlrtlj08.gif with imageio.
+MoviePy - Building file /tmp/tmpxvqjrkmx.gif with imageio.
+Eval_AverageReturn : 10262.09375
+Eval_StdReturn : 70.69453430175781
+Eval_MaxReturn : 10362.029296875
+Eval_MinReturn : 10209.6279296875
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 10162.244140625
+Train_StdReturn : 87.15252685546875
+Train_MaxReturn : 10313.458984375
+Train_MinReturn : 9993.765625
+Train_AverageEpLen : 1000.0
+Train_EnvstepsSoFar : 362275
+TimeSinceStart : 5945.637164115906
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 36 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10325.3125
+Eval_StdReturn : 34.035160064697266
+Eval_MaxReturn : 10372.40625
+Eval_MinReturn : 10293.150390625
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 10282.4453125
+Train_StdReturn : 88.39942932128906
+Train_MaxReturn : 10433.7587890625
+Train_MinReturn : 10116.3154296875
+Train_AverageEpLen : 1000.0
+Train_EnvstepsSoFar : 372275
+TimeSinceStart : 6143.410314083099
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 37 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10206.546875
+Eval_StdReturn : 22.48405647277832
+Eval_MaxReturn : 10236.814453125
+Eval_MinReturn : 10182.9755859375
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 10194.87890625
+Train_StdReturn : 268.7936706542969
+Train_MaxReturn : 10386.58203125
+Train_MinReturn : 9505.0322265625
+Train_AverageEpLen : 988.5454545454545
+Train_EnvstepsSoFar : 383149
+TimeSinceStart : 6298.793196439743
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 38 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10279.1826171875
+Eval_StdReturn : 11.468404769897461
+Eval_MaxReturn : 10287.65625
+Eval_MinReturn : 10262.96875
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 10247.962890625
+Train_StdReturn : 191.6514129638672
+Train_MaxReturn : 10393.58203125
+Train_MinReturn : 9693.91796875
+Train_AverageEpLen : 1000.0
+Train_EnvstepsSoFar : 393149
+TimeSinceStart : 6456.604695796967
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...
+
+
+********** Iteration 39 ************
+
+Collecting data to be used for training...
+
+Relabelling collected observations with labels from an expert policy...
+
+Training agent using sampled data from replay buffer...
+
+Beginning logging procedure...
+
+Collecting data for eval...
+Eval_AverageReturn : 10309.6005859375
+Eval_StdReturn : 25.611148834228516
+Eval_MaxReturn : 10335.333984375
+Eval_MinReturn : 10274.66015625
+Eval_AverageEpLen : 1000.0
+Train_AverageReturn : 10304.52734375
+Train_StdReturn : 44.2667236328125
+Train_MaxReturn : 10392.212890625
+Train_MinReturn : 10252.158203125
+Train_AverageEpLen : 1000.0
+Train_EnvstepsSoFar : 403149
+TimeSinceStart : 6610.18568944931
+Initial_DataCollection_AverageReturn : 10344.517578125
+Done logging...
+
+
+
+Saving agent's actor...

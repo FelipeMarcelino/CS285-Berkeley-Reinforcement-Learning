@@ -1,0 +1,49 @@
+\input{settings.tex}
+
+\begin{document}
+
+\lhead{} 
+\rhead{CS285 2019 fall\\ Homework 1} 
+
+\section{Behavioral Cloning}%
+\label{sec:Behavioral Cloning}
+
+
+\begin{itemize}
+    \item [1.2] \input{table.tex} Table  \ref{table:1-2} shows the different between performance of Dagger and
+        Behavioral Cloning. The environments tested were Ant-V2 and Humanoid-V2.
+    \item [1.3] \prettyref{fig:bcexpert} shows a graph comparing performance between expert and BC. The x-axis shows
+        the number of train steps per iteration. It is possible to visualize that grater the number of training steps
+        the better is the performance and smaller is the variance.  
+     
+\end{itemize}
+
+\begin{figure}
+\begin{center}
+    \includegraphics[scale=0.5]{./figs/comparison_bc_expert.png}
+\end{center}
+\caption{Comparison between Behavioral Cloning and Expert agents on Ant-v2} 
+\label{fig:bcexpert}
+\end{figure}
+
+\section{Dagger}%
+\label{sec:Dagger}
+
+\begin{itemize}
+    \item [2.2] \prettyref{fig:dagger} shows a fair comparison between BC,Dagger and 
+    Expert agents. Using the same hyperparameters for BC on the last section, with 200000 steps training per iteration,
+    the dagger has 40 iterations and 5000 steps training per iteration(Total: 200000). As we can see, dagger achieves
+    performance similar to expert agent, but BC shows worse performance between them. 
+\end{itemize}
+
+\begin{figure}
+\begin{center}
+    \includegraphics[scale=0.5]{./figs/comparison_bc_expert_dagger.png} 
+\end{center}
+\caption{Comparison between Behavioral Cloning, Expert and Dagger agents on Humanoid-v2}
+\label{fig:dagger}
+\end{figure}
+
+
+    
+\end{document}
