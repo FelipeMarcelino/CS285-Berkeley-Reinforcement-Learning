@@ -33,4 +33,4 @@ python cs285/experiments/execute_experiment.py --env_name humanoidv2 --exp_name 
 
 # Contact
 
-Felipe Marcelino - <felipe.ggmarcelino@gmail.com>
+Felipe Marcelino - <felipeglicerio@gmarcelino.com>
