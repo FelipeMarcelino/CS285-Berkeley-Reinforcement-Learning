@@ -1,0 +1,378 @@
+ 
+ 
+ 
+ 
+ 
+ 
+figFigure []
+
+Introduction To Reinforcement Learning
+Felipe Glicério Gomes Marcelino
+18 April 2020
+
+Slide 3
+
+Today's Lecture
+
+
+    Definition of a Markov decision process
+    Definition of reinforcement learning problem
+    Anatomy of a RL algorithm
+    Brief overview of RL algorithm types
+
+
+    Goals:
+        
+            Understand definitions  notation
+            Understand the underlying reinforcement learning objective
+            Get a summary of possible algorithms
+        
+Slide 4
+
+Some observations:
+
+    Behavioral Cloning works with partial observations (), but
+    Dagger assumption about error   is only possible with fully observations states ()
+
+Slide 5
+
+Reward functions
+
+
+    Reward functions tell us which states and actions are better.
+    Finds out a good reward function is one of the toughest problems in reinforcement learning.
+    Objective: Taking actions that will maximize long-term rewards rather than rewards at immediate next
+        step
+    Markov decision process definition: 
+
+Slide 8
+
+Markov Chain
+
+Definitions: 
+
+
+
+
+
+
+
+    (1) - Probability of go to state  from 
+    (2) -  is a vector of probabilities
+    (3) - Matrix - Probability of going at a state i given that currently state J
+    (4) - then 
+
+
+
+    .png
+Markov Chain
+
+fig:markovchain shows how is a markov chain graphic model. 
+
+
+
+Slide 9 - 10
+
+Markov Decision Process
+
+
+Defitions:
+
+
+
+
+
+    Markov Process
+
+
+
+Slide 12-14
+
+
+
+    Markov chain with augmentation state space
+
+fig:markovprocess and fig:markovprocesscomp show how is a markov process graphic model and
+markov chain with augmentation state space.
+
+The goal of reinforcement learning. Markov decision giving us:
+
+
+
+
+ is a trajectory. It is easy to see that adding the policy inside , the MDP models transform to a markov
+chain. Using above, we want find out the best parameters to maximize the expectation of reward:
+
+
+
+
+Using MDP definition above, all actions are possible on all states. But, it is possible to put negative rewards
+when some actions is illegal given a specific state. Or maybe remap illegal actions to do something else.
+
+Tip: 
+
+
+Redefining the state space to group the S and A, it is possible using the graphic model in
+fig:markovprocesscomp3(Markov Chain). So the probability of next state and the next action given the current
+stete and current action is just obtained by multiplying together  transition dynamics of the original MDP and the
+policy.
+
+
+
+
+    Markov chain notation using A and S space together.
+
+Slide 15
+
+Finite Horizon Case: State-Action Marginal
+
+
+    
+
+
+
+
+    Transition Operation
+
+
+ can be pushing inside the , by linearity of expectations. And because the term inside the sum
+only depends on  and , I can rewrite it instead of having it be an expectation over all trajectoreis, I
+can have it be expectation over just   and , that calls state action marginal 
+
+Slide 16
+
+Infinite Horizon case: Stationary Distribution
+Now, if  =  ? Considering:
+
+
+
+
+
+
+ converges to a stationary distribution. Therefore, . Solving  result in Stationary Distribution. OBS:  is eigenvector of .  It means that the
+distribution over  doesn't change after a transition.  Stationary distribution.
+
+As T go to  in eq:stationary, the sum becomes dominate by terms of stationary distribution. However, the
+result of  over  is . So, is necessary to adding a new term to have well-defined answer and sum up
+to something finite. The term
+is . It is called Undiscounted Average Return Formulation of RL. Then the optimal policy can be
+represent as follows:
+
+
+
+Slide 18
+
+
+
+    Finite Horizon
+
+fig:horizon shows as we don't care about the reward of a particular trajectory, we care about the
+expectation reward average over all the trajectories that could happen. Dealing with expectation is better because
+expectation functions are smooth, and they are better to derivate. 
+
+
+Slides 26-29
+
+Again, maximize the expectation of reward is what we want to. So, how do we deal with all this expectation?
+
+Maximize: 
+
+We can express the equation eq:expectation as a recursive way:
+
+
+Simplified equation eq:expectation is:
+
+
+
+If we know , the policy can be modified to improve the reward expectation. For instance: Maximize the
+probability of the action  so that the probability of  if 
+
+Definition: Q-function
+
+: total reward
+from taking  in  for the rest of trajectory. Evaluate it  exactly is intractable, but is is possible to
+use some algorithms to approximate Q-values. 
+
+Definition: Value-Function
+
+It is similar to Q-Function, but not taking into account the action as input for calculations.
+
+: total reward from
+. Using Q-function to express the Value-function: sum of all actions  (Expectation)
+. As a result, maximize the value in expectation of
+at the first state, consequently maximizes the total expected reward of the entire policy. 
+
+
+How to use Q-Functions and Value-Functions to improve
+
+
+
+    Ideas to improve policy
+
+Idea 2 in fig:ideas have been using in actor-critic models.
+
+
+Slide 30-35
+
+Types of RL Algorithms
+
+
+
+Policy Gradients:
+
+Directly differentiate the equation eq:objective. Diagram in fig:Policy
+
+
+
+    Policy-Gradients Diagram
+
+
+
+Value-Based
+
+Estimate value function or Q-function of the optimal policy without representing the policy explicitly.  Only keep
+tracking Q or V and improve these two functions through an iterative procedure. Diagram in fig:valuefunction
+
+
+
+    Value-Function Diagram
+
+
+Actor-Critic
+
+Combination of Policy Gradients and Value-Based. They estimate a value function or a Q-function and then they
+improve the policy using something very similar to policy gradients. They calculate a gradient using value
+functions and Q-functions. Diagram in fig:actor
+
+
+
+    Actor-Critic Diagram
+
+Model-Based RL
+
+Estimate the transition model between states using  and . 
+
+    Use the model for planning(no explicit policy) - Optimal Control or Planning techniques
+    Use the model to improve policy by pushing gradients or using the model to generate some synthetic
+        experience and plugging it into more standard model-free RL algorithms, which maybe can be any of  these three
+        types of the model above.
+
+Diagram model-based RL in fig:modelbased
+
+
+
+    Model-Based Diagram
+
+
+Slide 36-43
+
+Tradeoffs
+
+
+    Different tradeoffs
+            Sample Efficiency: How many times are necessary to run the policy to correct collect samples.
+
+            Stability and ease of use.
+            Different assumptions
+        
+            Stochastic or deterministic?
+            Continuous or discrete?
+            Episodic or infinite horizon?
+            Different things are easy or hard in different settings
+        
+            Easier to represent the policy?
+            Easier to represent the model?
+        
+Sample Efficiency
+
+
+    Sample efficiency: How many samples do we need to get a good policy? A sample means: Taking policy and run it
+        and see what it does. 
+    Is the algorithm off policy?
+        
+            Off policy: Able to improve the policy without generating new samples from that policy.
+            On policy: Each time the policy is changed, even a little bit, we need to generate new
+                samples.
+        
+
+
+    Sample Efficiency
+
+
+fig:comparison shows a comparison between different algorithms according to sample efficiency.
+
+
+
+    Sample efficiency for different algorithms
+
+Stability and ease of use
+
+
+    Does it converge? 
+    And if it converges, to what?
+    And does it converge every time?
+    Supervised learning: Almost always gradient descent
+    Reinforcement Learning: often not gradient descent
+        
+            Q-learning: Fixed Point Iteration
+            Model-based RL: Model is not optimized for expected reward
+            Policy Gradient: is gradient descent, but also often the least  efficient!
+        
+
+    Value function fitting
+        
+            At best, minimizes error of fit("Bellman error") 
+                
+                    Not the same as expected reward
+                            At worst, doesn't optimize anything
+                
+                    Many popular deep RL value fitting algorithms are not guaranteed to converge to
+                        anything in the nonlinear case.
+                            Model-based RL
+        
+            Model minimizes error fit
+                
+                    This will converge
+                            Not guarantee that better model = better policy
+            Policy gradient
+        
+            The only one that actually performs gradient descent on the true objective.
+        
+Assumptions
+
+
+    Common assumption 1: Full Observability -  Seeing states and not observations
+        
+            Generally assumed by value function fitting methods
+            Can be mitigate by adding recurrence
+            Common assumed 2: Episodic Learning - Delimit of trials. 
+        
+            Often assumed by pure policy methods
+            Assumed by some model-base RL methods
+            Common assumption 3: Continuity or Smoothness
+        
+            Assumed by some continuous value function learning methods
+            Often assumed by some model-based RL methods
+        
+Examples of specific algorithms
+
+
+    Value function fitting methods 
+        Q-learning, DQN
+        Temporal difference learning
+        Fitted value iteration
+        Policy gradient methods
+        
+            Reinforce
+            Natural policy gradient
+            Trust region policy optimization
+            Actor-critic algorithms
+        
+            Asynchronous advantage actor-critic (A3C)
+            Soft actor-critic(SAC)
+            Model-based RL algorithms
+        
+            Dyna
+            Guided policy search
+        
+
